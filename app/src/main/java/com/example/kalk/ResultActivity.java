@@ -23,7 +23,7 @@ public class ResultActivity extends AppCompatActivity {
                 answer.setText(etX + " + " + "(" + etY + ")" + " = " + result);
             }
         }catch (NumberFormatException e){
-            answer.setText("Ню-ню так нельзя!");
+            answer.setText("Нет!");
         }
     }
 }
